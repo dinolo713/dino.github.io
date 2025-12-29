@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登革熱防治衛教網 | 守護家園，遠離登革熱</title>
+    <meta name="description" content="登革熱防治衛教資訊網站，提供登革熱症狀、傳染途徑及預防措施資訊，並包含互動小遊戲。">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="main-header">
+        <nav class="container">
+            <div class="logo">
+                <i class="fa-solid fa-shield-virus"></i> 登革熱防治網
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">首頁</a></li>
+                <li><a href="#about">認識登革熱</a></li>
+                <li><a href="#prevention">預防措施</a></li>
+                <li><a href="#game" class="btn-game">消滅病媒蚊</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-grid"></div>
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <div class="hero-text reveal-up">
+                    <h1 class="glitch-text" data-text="守護家園，遠離登革熱">守護家園，<br><span class="highlight">遠離登革熱</span></h1>
+                    <p class="reveal-up stagger-2">了解登革熱，落實「巡、倒、清、刷」，全民總動員！</p>
+                    <div class="hero-btns reveal-up stagger-3">
+                        <a href="#prevention" class="btn btn-primary">如何預防</a>
+                        <button id="start-game-btn" class="btn btn-secondary"><i class="fa-solid fa-gamepad"></i>
+                            挑戰小遊戲</button>
+                    </div>
+                </div>
+            </div>
+            <div class="wave-bottom" style="opacity: 0.1; filter: invert(1);">
+                <svg viewBox="0 0 1440 320">
+                    <path fill="#ffffff" fill-opacity="1"
+                        d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                    </path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section-padding">
+            <div class="container">
+                <h2 class="section-title reveal-up">認識登革熱</h2>
+                <div class="about-grid">
+                    <div class="about-card reveal-up stagger-1">
+                        <i class="fa-solid fa-mosquito icon-large"></i>
+                        <h3>傳播途徑</h3>
+                        <p>主要傳播媒介為埃及斑蚊及白線斑蚊。當人被帶有病毒的蚊子叮咬後，病毒會進入人體。</p>
+                    </div>
+                    <div class="about-card reveal-up stagger-2">
+                        <i class="fa-solid fa-temperature-full icon-large"></i>
+                        <h3>潛伏期</h3>
+                        <p>典型潛伏期為 3 至 14 天，通常為 4 至 7 天。</p>
+                    </div>
+                </div>
+
+                <div class="symptoms reveal-up stagger-3">
+                    <h3>常見症狀</h3>
+                    <div class="symptoms-list">
+                        <a href="https://zh.wikipedia.org/wiki/發燒" target="_blank"
+                            class="symptom-item reveal-up stagger-1">
+                            <i class="fa-solid fa-biohazard"></i>
+                            <span>突發高燒</span>
+                        </a>
+                        <a href="https://zh.wikipedia.org/wiki/頭痛" target="_blank"
+                            class="symptom-item reveal-up stagger-2">
+                            <i class="fa-solid fa-skull"></i>
+                            <span>頭痛 / 後眼窩痛</span>
+                        </a>
+                        <a href="https://zh.wikipedia.org/wiki/肌痛" target="_blank"
+                            class="symptom-item reveal-up stagger-3">
+                            <i class="fa-solid fa-x-ray"></i>
+                            <span>肌肉關節痛</span>
+                        </a>
+                        <a href="https://zh.wikipedia.org/wiki/皮疹" target="_blank"
+                            class="symptom-item reveal-up stagger-4">
+                            <i class="fa-solid fa-spider"></i>
+                            <span>出疹</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prevention Section -->
+        <section id="prevention" class="section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title reveal-up">預防措施：四步驟</h2>
+                <p class="section-subtitle reveal-up stagger-1">落實「巡、倒、清、刷」，清除孳生源</p>
+
+                <div class="prevention-cards">
+                    <div class="p-card step-1 reveal-up stagger-1">
+                        <div class="p-icon">巡</div>
+                        <h3>巡視</h3>
+                        <p>經常巡視住家室內外可能積水的容器。</p>
+                    </div>
+                    <div class="p-card step-2 reveal-up stagger-2">
+                        <div class="p-icon">倒</div>
+                        <h3>倒掉</h3>
+                        <p>倒掉積水，不要的器物予以分類或倒放。</p>
+                    </div>
+                    <div class="p-card step-3 reveal-up stagger-3">
+                        <div class="p-icon">清</div>
+                        <h3>清除</h3>
+                        <p>減少容器，留下的器具都應徹底清潔。</p>
+                    </div>
+                    <div class="p-card step-4 reveal-up stagger-4">
+                        <div class="p-icon">刷</div>
+                        <h3>刷洗</h3>
+                        <p>刷除容器內壁斑蚊蟲卵，並倒置晾乾。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 登革熱防治衛教網. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Game Modal -->
+    <div id="game-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="game-container">
+                <!-- Damage Overlay -->
+                <div id="damage-overlay"></div>
+
+                <div class="game-hud">
+                    <div class="hud-top-left">
+                        <div class="hud-row">
+                            <div class="hud-label">HP</div>
+                            <div class="hp-bar-container">
+                                <div id="hp-bar" style="width: 100%;"></div>
+                            </div>
+                        </div>
+                        <div class="hud-row">
+                            <div class="hud-item">LV. <span id="level">1</span></div>
+                            <div class="hud-item">SCORE: <span id="score">0</span></div>
+                        </div>
+                    </div>
+
+                    <div class="hud-top-center">
+                        <div class="hud-item large-time"><span id="timer">60</span></div>
+                    </div>
+
+                    <div class="hud-bottom-center">
+                        <div class="skill-slot" id="skill-q">
+                            <div class="skill-key">Q</div>
+                            <div class="skill-icon"><i class="fa-solid fa-burst"></i></div>
+                            <div class="skill-cooldown"></div>
+                            <span class="skill-name">EMP</span>
+                        </div>
+                        <div class="skill-slot" id="skill-e">
+                            <div class="skill-key">E</div>
+                            <div class="skill-icon"><i class="fa-solid fa-angles-up"></i></div>
+                            <div class="skill-cooldown"></div>
+                            <span class="skill-name">OVERCLOCK</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="game-intro">
+                    <h2>3D 病媒蚊射擊訓練</h2>
+                    <p>移動準星，點擊發射雷射！<br>按 <span class="highlight">Q</span> 釋放衝擊波，按 <span class="highlight">E</span>
+                        開啟超頻模式。</p>
+                    <p>在生命值歸零前擊落敵人！</p>
+                    <button id="play-btn" class="btn btn-primary">開始任務</button>
+                    <button id="play-again-btn" class="btn btn-primary hidden">再次挑戰</button>
+                </div>
+                <!-- 3D Canvas Container -->
+                <div id="game-stage-3d"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Three.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
